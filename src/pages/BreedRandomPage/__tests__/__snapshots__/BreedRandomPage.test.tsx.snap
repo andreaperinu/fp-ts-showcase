@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreedRandomPage /> should match snapshot (breeds) 1`] = `
+<Fragment>
+  <BreedSelector
+    maybeBreeds={
+      Object {
+        "_tag": "Some",
+        "value": Array [
+          Object {
+            "breed": "affenpinscher",
+            "subBreeds": Array [],
+          },
+          Object {
+            "breed": "african",
+            "subBreeds": Array [],
+          },
+          Object {
+            "breed": "airedale",
+            "subBreeds": Array [],
+          },
+          Object {
+            "breed": "akita",
+            "subBreeds": Array [],
+          },
+          Object {
+            "breed": "appenzeller",
+            "subBreeds": Array [],
+          },
+          Object {
+            "breed": "australian",
+            "subBreeds": Array [
+              "shepherd",
+            ],
+          },
+          Object {
+            "breed": "bulldog",
+            "subBreeds": Array [
+              "boston",
+              "english",
+              "french",
+            ],
+          },
+          Object {
+            "breed": "terrier",
+            "subBreeds": Array [
+              "american",
+              "australian",
+              "bedlington",
+              "border",
+              "dandie",
+              "fox",
+              "irish",
+              "kerryblue",
+              "lakeland",
+              "norfolk",
+              "norwich",
+              "patterdale",
+              "russell",
+              "scottish",
+              "sealyham",
+              "silky",
+              "tibetan",
+              "toy",
+              "westhighland",
+              "wheaten",
+              "yorkshire",
+            ],
+          },
+          Object {
+            "breed": "default",
+            "subBreeds": Object {
+              "affenpinscher": Array [],
+              "african": Array [],
+              "airedale": Array [],
+              "akita": Array [],
+              "appenzeller": Array [],
+              "australian": Array [
+                "shepherd",
+              ],
+              "bulldog": Array [
+                "boston",
+                "english",
+                "french",
+              ],
+              "terrier": Array [
+                "american",
+                "australian",
+                "bedlington",
+                "border",
+                "dandie",
+                "fox",
+                "irish",
+                "kerryblue",
+                "lakeland",
+                "norfolk",
+                "norwich",
+                "patterdale",
+                "russell",
+                "scottish",
+                "sealyham",
+                "silky",
+                "tibetan",
+                "toy",
+                "westhighland",
+                "wheaten",
+                "yorkshire",
+              ],
+            },
+          },
+        ],
+      }
+    }
+    maybeSelectedBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  />
+  <styled.button
+    className="fetcher-button"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Fetch!
+  </styled.button>
+  <Memo(BaseImage)
+    maybeImage={
+      Object {
+        "_tag": "None",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`<BreedRandomPage /> should match snapshot (image) 1`] = `
+<Fragment>
+  <BreedSelector
+    maybeBreeds={
+      Object {
+        "_tag": "None",
+      }
+    }
+    maybeSelectedBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  />
+  <styled.button
+    className="fetcher-button"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Fetch!
+  </styled.button>
+  <Memo(BaseImage)
+    maybeImage={
+      Object {
+        "_tag": "Some",
+        "value": "url",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`<BreedRandomPage /> should match snapshot 1`] = `
+<Fragment>
+  <BreedSelector
+    maybeBreeds={
+      Object {
+        "_tag": "None",
+      }
+    }
+    maybeSelectedBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  />
+  <styled.button
+    className="fetcher-button"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Fetch!
+  </styled.button>
+  <Memo(BaseImage)
+    maybeImage={
+      Object {
+        "_tag": "None",
+      }
+    }
+  />
+</Fragment>
+`;

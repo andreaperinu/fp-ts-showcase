@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigation /> should match snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "test",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "test",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "test",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Navigation>
+      <styled.nav>
+        <nav
+          className="sc-bdfBwQ cIrsEs"
+        >
+          <ul>
+            <li>
+              <Link
+                to="/"
+              >
+                <LinkAnchor
+                  href="/"
+                  navigate={[Function]}
+                >
+                  <a
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    <h3>
+                      Random by breed
+                    </h3>
+                  </a>
+                </LinkAnchor>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/list"
+              >
+                <LinkAnchor
+                  href="/list"
+                  navigate={[Function]}
+                >
+                  <a
+                    href="/list"
+                    onClick={[Function]}
+                  >
+                    <h3>
+                      List by breed
+                    </h3>
+                  </a>
+                </LinkAnchor>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/sub/random"
+              >
+                <LinkAnchor
+                  href="/sub/random"
+                  navigate={[Function]}
+                >
+                  <a
+                    href="/sub/random"
+                    onClick={[Function]}
+                  >
+                    <h3>
+                      Random by sub-breed
+                    </h3>
+                  </a>
+                </LinkAnchor>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/sub/list"
+              >
+                <LinkAnchor
+                  href="/sub/list"
+                  navigate={[Function]}
+                >
+                  <a
+                    href="/sub/list"
+                    onClick={[Function]}
+                  >
+                    <h3>
+                      List by sub-breed
+                    </h3>
+                  </a>
+                </LinkAnchor>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </styled.nav>
+    </Navigation>
+  </Router>
+</MemoryRouter>
+`;

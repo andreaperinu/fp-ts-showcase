@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreedSelector /> should match snapshot 1`] = `
+<Fragment>
+  <h2>
+    Select a breed
+  </h2>
+  <Memo(BaseSelect)
+    data-test="component-select"
+    maybeOptions={
+      Object {
+        "_tag": "Some",
+        "value": Array [
+          Object {
+            "id": "affenpinscher",
+            "value": "affenpinscher",
+          },
+          Object {
+            "id": "african",
+            "value": "african",
+          },
+          Object {
+            "id": "airedale",
+            "value": "airedale",
+          },
+          Object {
+            "id": "akita",
+            "value": "akita",
+          },
+          Object {
+            "id": "appenzeller",
+            "value": "appenzeller",
+          },
+          Object {
+            "id": "australian",
+            "value": "australian",
+          },
+          Object {
+            "id": "bulldog",
+            "value": "bulldog",
+          },
+          Object {
+            "id": "terrier",
+            "value": "terrier",
+          },
+          Object {
+            "id": "default",
+            "value": "default",
+          },
+        ],
+      }
+    }
+    maybeValue={
+      Object {
+        "_tag": "Some",
+        "value": Object {
+          "id": "affenpinscher",
+          "value": "affenpinscher",
+        },
+      }
+    }
+    onChange={[Function]}
+  />
+</Fragment>
+`;

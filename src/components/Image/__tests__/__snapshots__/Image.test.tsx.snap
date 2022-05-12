@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> should match snapshot (fixed) 1`] = `
+<Memo(BaseImage)
+  fixedSize={true}
+  maybeImage={
+    Object {
+      "_tag": "Some",
+      "value": "url",
+    }
+  }
+>
+  <styled.div
+    imgSrc="url"
+  >
+    <div
+      className="sc-gsTCUz jHqUdB"
+    />
+  </styled.div>
+</Memo(BaseImage)>
+`;
+
+exports[`<Image /> should match snapshot 1`] = `
+<Memo(BaseImage)
+  maybeImage={
+    Object {
+      "_tag": "Some",
+      "value": "url",
+    }
+  }
+>
+  <styled.img
+    src="url"
+  >
+    <img
+      className="sc-bdfBwQ gsGDQZ"
+      src="url"
+    />
+  </styled.img>
+</Memo(BaseImage)>
+`;

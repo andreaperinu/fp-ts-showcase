@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> should match the snapshot (blank value) 1`] = `
+<styled.div
+  disabled={false}
+  showOptions={false}
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="value"
+      onClick={[Function]}
+    />
+    <ul
+      className="list"
+    >
+      <li
+        key="0"
+        onClick={[Function]}
+        value="0"
+      >
+        name_0
+      </li>
+      <li
+        key="1"
+        onClick={[Function]}
+        value="1"
+      >
+        name_1
+      </li>
+    </ul>
+  </div>
+</styled.div>
+`;
+
+exports[`<Select /> should match the snapshot (show options) 1`] = `
+<BaseSelect
+  maybeOptions={
+    Object {
+      "_tag": "Some",
+      "value": Array [
+        Object {
+          "id": "0",
+          "value": "name_0",
+        },
+        Object {
+          "id": "1",
+          "value": "name_1",
+        },
+      ],
+    }
+  }
+  maybeValue={
+    Object {
+      "_tag": "Some",
+      "value": Object {
+        "id": "0",
+        "value": "name_0",
+      },
+    }
+  }
+  onChange={[MockFunction]}
+>
+  <styled.div
+    disabled={false}
+    showOptions={false}
+  >
+    <div
+      className="sc-bdfBwQ dePLvY"
+      disabled={false}
+    >
+      <div
+        className="wrapper"
+      >
+        <div
+          className="value"
+          onClick={[Function]}
+        >
+          name_0
+        </div>
+        <ul
+          className="list"
+        >
+          <li
+            key="0"
+            onClick={[Function]}
+            value="0"
+          >
+            name_0
+          </li>
+          <li
+            key="1"
+            onClick={[Function]}
+            value="1"
+          >
+            name_1
+          </li>
+        </ul>
+      </div>
+    </div>
+  </styled.div>
+</BaseSelect>
+`;
+
+exports[`<Select /> should match the snapshot (show text) 1`] = `
+<styled.div
+  disabled={false}
+  showOptions={false}
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="value"
+      onClick={[Function]}
+    >
+      name_0
+    </div>
+    <ul
+      className="list"
+    >
+      <li
+        key="0"
+        onClick={[Function]}
+        value="0"
+      >
+        name_0
+      </li>
+      <li
+        key="1"
+        onClick={[Function]}
+        value="1"
+      >
+        name_1
+      </li>
+    </ul>
+  </div>
+  <div
+    className="text"
+    onClick={[Function]}
+  >
+    text
+  </div>
+</styled.div>
+`;
+
+exports[`<Select /> should match the snapshot 1`] = `
+<styled.div
+  disabled={false}
+  showOptions={false}
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="value"
+      onClick={[Function]}
+    >
+      name_0
+    </div>
+    <ul
+      className="list"
+    >
+      <li
+        key="0"
+        onClick={[Function]}
+        value="0"
+      >
+        name_0
+      </li>
+      <li
+        key="1"
+        onClick={[Function]}
+        value="1"
+      >
+        name_1
+      </li>
+    </ul>
+  </div>
+</styled.div>
+`;

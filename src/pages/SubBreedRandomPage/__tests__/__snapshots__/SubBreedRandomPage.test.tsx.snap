@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubBreedRandomPage /> should match snapshot (breeds) 1`] = `
+<Fragment>
+  <BreedSelector
+    maybeBreeds={
+      Object {
+        "_tag": "Some",
+        "value": Array [
+          Object {
+            "breed": "australian",
+            "subBreeds": Array [
+              "shepherd",
+            ],
+          },
+          Object {
+            "breed": "bulldog",
+            "subBreeds": Array [
+              "boston",
+              "english",
+              "french",
+            ],
+          },
+          Object {
+            "breed": "terrier",
+            "subBreeds": Array [
+              "american",
+              "australian",
+              "bedlington",
+              "border",
+              "dandie",
+              "fox",
+              "irish",
+              "kerryblue",
+              "lakeland",
+              "norfolk",
+              "norwich",
+              "patterdale",
+              "russell",
+              "scottish",
+              "sealyham",
+              "silky",
+              "tibetan",
+              "toy",
+              "westhighland",
+              "wheaten",
+              "yorkshire",
+            ],
+          },
+        ],
+      }
+    }
+    maybeSelectedBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  />
+  <SubBreedSelector
+    disabled={true}
+    maybeBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    maybeSelectedSubBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  />
+  <styled.button
+    className="fetcher-button"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Fetch!
+  </styled.button>
+  <Memo(BaseImage)
+    maybeImage={
+      Object {
+        "_tag": "None",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`<SubBreedRandomPage /> should match snapshot (image) 1`] = `
+<Fragment>
+  <BreedSelector
+    maybeBreeds={
+      Object {
+        "_tag": "None",
+      }
+    }
+    maybeSelectedBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  />
+  <SubBreedSelector
+    disabled={true}
+    maybeBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    maybeSelectedSubBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  />
+  <styled.button
+    className="fetcher-button"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Fetch!
+  </styled.button>
+  <Memo(BaseImage)
+    maybeImage={
+      Object {
+        "_tag": "Some",
+        "value": "url",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`<SubBreedRandomPage /> should match snapshot 1`] = `
+<SubBreedRandomPage>
+  <BreedSelector
+    maybeBreeds={
+      Object {
+        "_tag": "None",
+      }
+    }
+    maybeSelectedBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  >
+    <h2>
+      Select a breed
+    </h2>
+    <Memo(BaseSelect)
+      data-test="component-select"
+      maybeOptions={
+        Object {
+          "_tag": "None",
+        }
+      }
+      maybeValue={
+        Object {
+          "_tag": "None",
+        }
+      }
+      onChange={[Function]}
+    >
+      <styled.div
+        disabled={false}
+        showOptions={false}
+      >
+        <div
+          className="sc-bdfBwQ dePLvY"
+          disabled={false}
+        >
+          <div
+            className="wrapper"
+          >
+            <div
+              className="value"
+              onClick={[Function]}
+            />
+          </div>
+        </div>
+      </styled.div>
+    </Memo(BaseSelect)>
+  </BreedSelector>
+  <SubBreedSelector
+    disabled={true}
+    maybeBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    maybeSelectedSubBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  >
+    <styled.div
+      disabled={true}
+    >
+      <div
+        className="sc-eCssSg gzhgvL"
+        disabled={true}
+      >
+        <h2>
+          Then, select a sub-breed
+        </h2>
+        <Memo(BaseSelect)
+          data-test="component-select"
+          disabled={true}
+          maybeOptions={
+            Object {
+              "_tag": "None",
+            }
+          }
+          maybeValue={
+            Object {
+              "_tag": "None",
+            }
+          }
+          onChange={[Function]}
+        >
+          <styled.div
+            disabled={true}
+            showOptions={false}
+          >
+            <div
+              className="sc-bdfBwQ jEdgig"
+              disabled={true}
+            >
+              <div
+                className="wrapper"
+              >
+                <div
+                  className="value"
+                  onClick={[Function]}
+                />
+              </div>
+            </div>
+          </styled.div>
+        </Memo(BaseSelect)>
+      </div>
+    </styled.div>
+  </SubBreedSelector>
+  <styled.button
+    className="fetcher-button"
+    disabled={true}
+    onClick={[Function]}
+  >
+    <button
+      className="sc-gsTCUz grofYt fetcher-button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Fetch!
+    </button>
+  </styled.button>
+  <Memo(BaseImage)
+    maybeImage={
+      Object {
+        "_tag": "None",
+      }
+    }
+  />
+</SubBreedRandomPage>
+`;

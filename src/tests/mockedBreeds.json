@@ -1,0 +1,38 @@
+{
+	"affenpinscher": [],
+	"african": [],
+	"airedale": [],
+	"akita": [],
+	"appenzeller": [],
+	"australian": [
+		"shepherd"
+	],
+	"bulldog": [
+		"boston",
+		"english",
+		"french"
+	],
+	"terrier": [
+		"american",
+		"australian",
+		"bedlington",
+		"border",
+		"dandie",
+		"fox",
+		"irish",
+		"kerryblue",
+		"lakeland",
+		"norfolk",
+		"norwich",
+		"patterdale",
+		"russell",
+		"scottish",
+		"sealyham",
+		"silky",
+		"tibetan",
+		"toy",
+		"westhighland",
+		"wheaten",
+		"yorkshire"
+	]
+}

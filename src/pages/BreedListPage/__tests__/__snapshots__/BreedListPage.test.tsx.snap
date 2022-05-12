@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreedListPage /> should match snapshot 1`] = `
+<Fragment>
+  <BreedSelector
+    maybeSelectedBreed={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  />
+  <Gallery />
+</Fragment>
+`;

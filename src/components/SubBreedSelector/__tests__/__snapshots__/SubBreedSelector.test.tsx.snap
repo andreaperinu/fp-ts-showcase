@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreedSelector /> should match snapshot 1`] = `
+<styled.div
+  disabled={false}
+>
+  <h2>
+    Then, select a sub-breed
+  </h2>
+  <Memo(BaseSelect)
+    data-test="component-select"
+    disabled={false}
+    maybeOptions={
+      Object {
+        "_tag": "Some",
+        "value": Array [],
+      }
+    }
+    maybeValue={
+      Object {
+        "_tag": "None",
+      }
+    }
+    onChange={[Function]}
+  />
+</styled.div>
+`;
