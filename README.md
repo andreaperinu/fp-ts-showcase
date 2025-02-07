@@ -1,6 +1,6 @@
 # FPTS Showcase: High-Performance Dog Image Gallery
 
-A sophisticated demonstration of Functional Programming TypeScript (FPTS) capabilities, featuring a dynamic dashboard for browsing dog images by breed and sub-breed. Built using the Dog CEO API, this project showcases advanced FPTS patterns and maintains exceptional code quality with 97% test coverage.
+A sophisticated demonstration of Functional Programming TypeScript (FPTS) capabilities, featuring a dynamic dashboard for browsing dog images by breed and sub-breed. Built using the Dog CEO API, this project showcases FPTS patterns and maintains great code quality with 97% test coverage.
 
 ```js
 {"author": "Andrea Perinu <andrea.perinu@gmail.com> (https://github.com/andreaperinu)"}
